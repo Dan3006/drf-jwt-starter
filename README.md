@@ -40,3 +40,17 @@ python manage.py runserver
 
 This project is part of my journey into full stack development.
 
+
+## Phase 1 – Full-Stack Expansion
+
+**Status:** ✅ Completed
+
+### Added
+- Created `api` app with mock `/api/workouts/` endpoint.
+- Configured **CORS** via `django-cors-headers` for React frontend access.
+- Integrated with React frontend for live JSON responses.
+
+### Run Locally
+```bash
+python manage.py runserver
+
